@@ -1,3 +1,4 @@
+<<<<<<< Upstream, based on origin/master
 <mvc:View controllerName="UI5Day2.controller.app" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
 	<App id="app">
 		<Page title="{i18n>homePageTitle}">
@@ -37,3 +38,17 @@
 		</Page>
 	</App>
 </mvc:View>
+=======
+<mvc:View controllerName="UI5Day2.controller.app" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
+	<Shell>
+		<App>
+			<pages>
+				<Page title="App Page">
+					<content>
+						<mvc:XMLView viewName="UI5Day2.view.invoice"/></content>
+					</Page>
+				</pages>
+			</App>
+		</Shell>
+	</mvc:View>
+>>>>>>> ee8d687 UI5 with component.js - adding app view as container
